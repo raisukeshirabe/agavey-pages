@@ -81,6 +81,12 @@
         padding: 0 24px;
       }
 
+      @media (max-width: 768px) {
+        .container {
+          padding: 0 20px;
+        }
+      }
+
       /* Header */
       header {
         position: fixed;
@@ -166,6 +172,7 @@
         align-items: center;
         position: relative;
         overflow: hidden;
+        padding-top: 80px;
       }
 
       .hero::before {
@@ -874,8 +881,33 @@
 
       /* Responsive Design */
       @media (max-width: 768px) {
+        nav {
+          padding: 12px 20px;
+        }
+
+        .logo {
+          font-size: 20px;
+        }
+
+        .logo-icon {
+          width: 28px;
+          height: 28px;
+        }
+
         .nav-links {
           display: none;
+        }
+
+        .cta-button {
+          font-size: 0.85rem;
+          padding: 8px 16px;
+          border-radius: 10px;
+        }
+
+        .hero {
+          padding-top: 100px;
+          min-height: auto;
+          padding-bottom: 60px;
         }
 
         .hero-content {
@@ -888,9 +920,23 @@
           font-size: 2.5rem;
         }
 
+        .hero-tagline {
+          font-size: 1.2rem;
+        }
+
+        .hero-description {
+          font-size: 1rem;
+        }
+
         .hero-buttons {
           flex-direction: column;
           align-items: center;
+        }
+
+        .btn-primary,
+        .btn-secondary {
+          font-size: 1rem;
+          padding: 14px 28px;
         }
 
         .phone-mockup {
@@ -904,6 +950,21 @@
 
         .features-grid {
           grid-template-columns: 1fr;
+        }
+
+        .features,
+        .about,
+        .pricing,
+        .support {
+          padding: 60px 0;
+        }
+
+        .section-header {
+          margin-bottom: 40px;
+        }
+
+        .section-subtitle {
+          font-size: 1rem;
         }
 
         .about-content {
@@ -950,6 +1011,10 @@
           transform: rotate(18deg) translateX(80px) translateY(-15px) scale(1.05);
         }
 
+        footer {
+          padding: 60px 0 30px;
+        }
+
         .footer-content {
           grid-template-columns: 1fr;
           gap: 40px;
@@ -958,6 +1023,20 @@
         .support-grid {
           grid-template-columns: 1fr;
           gap: 40px;
+        }
+
+        /* CTA Section adjustments */
+        .hero#download h1 {
+          font-size: 2rem !important;
+        }
+
+        .hero#download .hero-description {
+          font-size: 0.95rem;
+        }
+
+        .hero#download {
+          padding-top: 60px !important;
+          padding-bottom: 40px !important;
         }
       }
     </style>
@@ -993,8 +1072,7 @@
             <h1>植える。<br />つながる。<br />ともに、育つ。</h1>
             <p class="hero-description">
               あなたのアガベの物語を、世界と共有しよう。
-              日々の観察や育成の工夫をシェアすることで、世界中のアガベマニアとつながり、新しい発見を育てていく。
-              ここから始まるのは、植物と人が一緒に成長するコミュニティ。
+              世界中のアガベマニアとつながり、植物と人が一緒に成長するコミュニティ。
             </p>
             <div class="hero-buttons">
               <a href="#download" class="btn-primary">Agaveyを始める</a>
