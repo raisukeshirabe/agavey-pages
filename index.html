@@ -976,9 +976,12 @@
         }
 
         .hero-buttons {
-          flex-direction: column;
-          align-items: center;
+          flex-direction: row;
+          justify-content: center;
+          align-items: flex-start;
+          flex-wrap: wrap;
           width: 100%;
+          gap: 16px;
         }
 
         .hero-buttons img {
@@ -1149,17 +1152,19 @@
               class="hero-buttons"
               style="justify-content: center; gap: 16px; flex-wrap: wrap; margin-top: 40px;"
             >
-              <a
-                href="https://apps.apple.com/"
-                aria-label="App Store からダウンロード"
-                style="display: inline-block;"
-              >
-                <img
-                  src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ja-jp?size=250x83&amp;releaseDate=1318636800"
-                  alt="Download on the App Store"
-                  style="height: 56px; border-radius: 8px; margin-top: 6px;"
-                />
-              </a>
+              <div style="text-align: center;">
+                <a
+                  href="https://apps.apple.com/"
+                  aria-label="App Store からダウンロード"
+                  style="display: inline-block;"
+                >
+                  <img
+                    src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ja-jp?size=250x83&amp;releaseDate=1318636800"
+                    alt="Download on the App Store"
+                    style="height: 56px; border-radius: 8px; margin-top: 6px;"
+                  />
+                </a>
+              </div>
               <div style="text-align: center;">
                 <a
                   href="https://play.google.com/"
@@ -1169,10 +1174,10 @@
                   <img
                     src="https://play.google.com/intl/en_us/badges/static/images/badges/ja_badge_web_generic.png"
                     alt="Get it on Google Play"
-                    style="height: 70px;"
+                    style="height: 56px; border-radius: 8px; margin-top: 6px;"
                   />
                 </a>
-                <p style="color: var(--text-secondary); font-size: 0.7rem; margin-top: 4px;">Google Playでの配信は近日公開予定です。</p>
+                <p style="color: var(--text-secondary); font-size: 0.7rem; margin-top: 4px;">近日公開予定</p>
               </div>
             </div>
           </div>
@@ -1417,7 +1422,7 @@
           style="grid-template-columns: 1fr; text-align: center; gap: 40px"
         >
           <div class="hero-text">
-            <h1 style="font-size: 3rem">Agaveyを始めよう</h1>
+            <h1 style="font-size: 3rem; text-align: center;">Agaveyを始めよう</h1>
             <p class="hero-description" style="text-align: center;">
               App Store・Google Playで配信中
             </p>
@@ -1425,17 +1430,19 @@
               class="hero-buttons"
               style="justify-content: center; gap: 16px; flex-wrap: wrap;"
             >
-              <a
-                href="https://apps.apple.com/"
-                aria-label="App Store からダウンロード"
-                style="display: inline-block;"
-              >
-                <img
-                  src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ja-jp?size=250x83&amp;releaseDate=1318636800"
-                  alt="Download on the App Store"
-                  style="height: 56px; border-radius: 8px; margin-top: 6px;"
-                />
-              </a>
+              <div style="text-align: center;">
+                <a
+                  href="https://apps.apple.com/"
+                  aria-label="App Store からダウンロード"
+                  style="display: inline-block;"
+                >
+                  <img
+                    src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ja-jp?size=250x83&amp;releaseDate=1318636800"
+                    alt="Download on the App Store"
+                    style="height: 56px; border-radius: 8px; margin-top: 6px;"
+                  />
+                </a>
+              </div>
               <div style="text-align: center;">
                 <a
                   href="https://play.google.com/"
@@ -1445,10 +1452,10 @@
                   <img
                     src="https://play.google.com/intl/en_us/badges/static/images/badges/ja_badge_web_generic.png"
                     alt="Get it on Google Play"
-                    style="height: 70px;"
+                    style="height: 56px; border-radius: 8px; margin-top: 6px;"
                   />
                 </a>
-                <p style="color: var(--text-secondary); font-size: 0.7rem; margin-top: 4px;">Google Playでの配信は近日公開予定です。</p>
+                <p style="color: var(--text-secondary); font-size: 0.7rem; margin-top: 4px;">近日公開予定</p>
               </div>
             </div>
           </div>
