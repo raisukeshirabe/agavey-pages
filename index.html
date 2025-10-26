@@ -691,6 +691,47 @@
         font-weight: 800;
         color: var(--primary-green);
         margin-bottom: 8px;
+        display: inline-flex;
+        align-items: flex-end;
+        gap: 8px;
+      }
+
+      .plan-price-term {
+        font-size: 1rem;
+        font-weight: 500;
+        color: var(--text-secondary);
+        margin-bottom: 6px;
+      }
+
+      .plan-annual {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        margin-bottom: 12px;
+        color: var(--text-secondary);
+        font-size: 0.95rem;
+      }
+
+      .annual-price {
+        font-weight: 600;
+        color: var(--text-primary);
+      }
+
+      .plan-annual-badge {
+        background: rgba(34, 197, 94, 0.15);
+        color: var(--primary-green);
+        padding: 4px 12px;
+        border-radius: 999px;
+        font-size: 0.85rem;
+        font-weight: 600;
+      }
+
+      .plan-message {
+        font-size: 0.9rem;
+        color: var(--text-muted);
+        margin-bottom: 24px;
+        font-style: italic;
       }
 
       .plan-period {
@@ -1277,12 +1318,12 @@
         <div class="section-header">
           <h2 class="section-title">あなたに最適なプランを</h2>
           <p class="section-subtitle">
-            無料プランで始めて、より多くのアガベを管理したくなったらプレミアムにアップグレード。
+            Freeプランで始めて、より多くのアガベを管理したくなったらProにアップグレード。
           </p>
         </div>
         <div class="pricing-cards">
           <div class="pricing-card">
-            <h3 class="plan-name">無料プラン</h3>
+            <h3 class="plan-name">Freeプラン</h3>
             <div class="plan-price">¥0</div>
             <div class="plan-period">永続無料</div>
             <ul class="plan-features">
@@ -1294,9 +1335,16 @@
             <a href="#download" class="btn-secondary">Agaveyを始める</a>
           </div>
           <div class="pricing-card premium">
-            <h3 class="plan-name">プレミアム</h3>
-            <div class="plan-price">¥980</div>
-            <div class="plan-period">月額</div>
+            <h3 class="plan-name">Agavey Pro</h3>
+            <div class="plan-price">
+              <span class="plan-price-amount">¥680</span>
+              <span class="plan-price-term">/月</span>
+            </div>
+            <div class="plan-period">月額（いつでも解約可）</div>
+            <div class="plan-annual">
+              <span class="annual-price">年額 ¥6,800</span>
+              <span class="plan-annual-badge">2ヶ月分お得</span>
+            </div>
             <ul class="plan-features">
               <li>アガベ管理 無制限</li>
               <li>成長記録閲覧 無制限</li>
@@ -1307,7 +1355,7 @@
               <li>AI診断（予定）</li>
               <li>優先サポート</li>
             </ul>
-            <a href="#download" class="btn-primary">プレミアムで始める</a>
+            <a href="#download" class="btn-primary">Proで始める</a>
           </div>
         </div>
       </div>
@@ -1334,7 +1382,7 @@
               </button>
               <div class="faq-answer">
                 <div class="faq-answer-content">
-                  無料プランでは最大5株のアガベを管理できます。プレミアムプランでは管理数が無制限になり、成長記録閲覧 無制限、優先サポートなどの追加機能がご利用いただけます。
+                  無料プランでは最大5株のアガベを管理できます。Proプランでは管理数が無制限になり、成長記録閲覧 無制限、優先サポートなどの追加機能がご利用いただけます。
                 </div>
               </div>
             </div>
@@ -1378,7 +1426,7 @@
               </button>
               <div class="faq-answer">
                 <div class="faq-answer-content">
-                  植物の詳細ページから簡単に設定できます。植物一覧で設定したい株を選択し、リマインダーアイコンをタップ。日数間隔（例：3日ごと）または特定の曜日を指定して、通知時刻を設定するだけです。プレミアムプランでは、1つの株に複数のリマインダーを設定できます。
+                  植物の詳細ページから簡単に設定できます。植物一覧で設定したい株を選択し、リマインダーアイコンをタップ。日数間隔（例：3日ごと）または特定の曜日を指定して、通知時刻を設定するだけです。Proプランでは、1つの株に複数のリマインダーを設定できます。
                 </div>
               </div>
             </div>
