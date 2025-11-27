@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Agavey - Root・Share・Grow｜植える。つながる。ともに、育つ。</title>
+    <title>Agavey - Root・Observe・Grow｜植える・観察する・育てる。</title>
     <meta
       name="description"
       content="アガベを愛する人のための育成記録 × コミュニティアプリ。"
     />
     <link rel="icon" href="assets/images/favicon.ico" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Agavey - Root・Share・Grow｜植える。つながる。ともに、育つ。" />
+    <meta property="og:title" content="Agavey - Root・Observe・Grow｜植える・観察する・育てる。" />
     <meta
       property="og:description"
       content="アガベを愛する人のための育成記録 × コミュニティアプリ。"
@@ -43,8 +43,8 @@
         --light-green: #86efac;
         --root-blue: #3b82f6;
         --root-cyan: #06b6d4;
-        --share-orange: #f97316;
-        --share-amber: #f59e0b;
+        --observe-orange: #f97316;
+        --observe-amber: #f59e0b;
         --grow-pink: #ec4899;
         --grow-rose: #f43f5e;
         --bg-dark: #0f0f0f;
@@ -56,7 +56,7 @@
         --border-subtle: #262626;
         --gradient-primary: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
         --gradient-root: linear-gradient(135deg, #ec4899 0%, #f43f5e 100%);
-        --gradient-share: linear-gradient(135deg, #f97316 0%, #f59e0b 100%);
+        --gradient-observe: linear-gradient(135deg, #f97316 0%, #f59e0b 100%);
         --gradient-grow: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
         --gradient-hero: linear-gradient(
           135deg,
@@ -239,7 +239,7 @@
         background: linear-gradient(
           90deg,
           var(--root-cyan) 0%,
-          var(--share-amber) 50%,
+          var(--observe-amber) 50%,
           var(--grow-pink) 100%
         );
         -webkit-background-clip: text;
@@ -456,8 +456,8 @@
         background: var(--gradient-root);
       }
 
-      .feature-card.share .feature-icon {
-        background: var(--gradient-share);
+      .feature-card.observe .feature-icon {
+        background: var(--gradient-observe);
       }
 
       .feature-card.grow .feature-icon {
@@ -468,7 +468,7 @@
         border-color: rgba(59, 130, 246, 0.3);
       }
 
-      .feature-card.share:hover {
+      .feature-card.observe:hover {
         border-color: rgba(249, 115, 22, 0.3);
       }
 
@@ -480,8 +480,8 @@
         background: var(--gradient-root);
       }
 
-      .feature-card.share::before {
-        background: var(--gradient-share);
+      .feature-card.observe::before {
+        background: var(--gradient-observe);
       }
 
       .feature-card.grow::before {
@@ -1173,11 +1173,10 @@
       <div class="container">
         <div class="hero-content">
           <div class="hero-text">
-            <div class="hero-tagline">Root・Share・Grow</div>
-            <h1>植える。<br />つながる。<br />ともに、育つ。</h1>
+            <div class="hero-tagline">Root・Observe・Grow</div>
+            <h1>植える<br />観察する<br />ともに、育つ</h1>
             <p class="hero-description">
-              あなたのアガベの物語を、世界と共有しよう。
-              世界中のアガベマニアとつながり、植物と人が一緒に成長するコミュニティ。
+              アガベとの日々を記録し、観察して、知識を深めよう。
             </p>
             <div class="hero-buttons">
               <a href="#download" class="btn-primary">Agaveyを始める</a>
@@ -1234,35 +1233,35 @@
     <section class="features" id="features">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">観察・記録・つながり<br />すべてが一つに</h2>
+          <h2 class="section-title">記録・観察・成長<br />すべてが一つに</h2>
           <p class="section-subtitle">
-            アガベの成長を記録し、世界中のアガベマニアと共有する。
-            Agaveyで、あなたの育成体験が誰かの学びになる。
+            アガベの成長を詳細に記録し、観察して、育て方の知識を深めよう。
+            Agaveyで、日々の観察が知識に変わる。
           </p>
         </div>
         <div class="features-grid">
 
           <div class="feature-card root">
             <div class="feature-icon"><i class="fa-solid fa-leaf"></i></div>
-            <h3 class="feature-title">Root｜植物の育成を管理する</h3>
+            <h3 class="feature-title">Root｜植える</h3>
             <p class="feature-description">
-              名称、購入情報、状態やリマインダーまで詳細に一元管理。お気に入りの写真を添えて、栽培環境の違いも記録できます。栽培方法や購入状態、植付け日数まで一元管理。水やりリマインダーは日数間隔や曜日を設定。植物ごとの成長記録をタイムラインで閲覧できます。
+              すべてのアガベを一覧で管理。名称、購入日、リマインダー、成長履歴などをまとめて記録し、コレクションを記録できます。詳細画面では、タイムラインで育成の歩みを振り返ることができます。
             </p>
           </div>
 
-          <div class="feature-card share">
-            <div class="feature-icon"><i class="fa-solid fa-earth-americas"></i></div>
-            <h3 class="feature-title">Share｜育成ストーリーを共有する</h3>
+          <div class="feature-card observe">
+            <div class="feature-icon"><i class="fa-solid fa-camera"></i></div>
+            <h3 class="feature-title">Observe｜観察する</h3>
             <p class="feature-description">
-              成長記録を公開して、いいねやコメントで交流。世界中のアガベマニアとつながって、気になる育成スタイルを学ぶことができます。ポストをスワイプして気になるアガベを発見し、投稿された成長記録から育成ノウハウを共有できます。
+              水やり・照射・写真・メモなどをワンタップで記録。植物ごとに成長の変化を見える化。いつお世話したかを記録し、最終水やりをリマインドして植物の健康を管理します。
             </p>
           </div>
 
           <div class="feature-card grow">
             <div class="feature-icon"><i class="fa-solid fa-droplet"></i></div>
-            <h3 class="feature-title">Grow｜日々の成長を記録する</h3>
+            <h3 class="feature-title">Grow｜育てる</h3>
             <p class="feature-description">
-              水やり・照射・写真・メモなどをワンタップで記録。植物ごとに成長の変化を見える化します。いつお世話したかを記録し、最終水やりをリマインドして植物の健康を管理。日々の写真を撮影して育成ストーリーを作成できます。
+              オーバーレイカメラで細かな日々の成長を写真で記録。タイムラプス動画をワンタップで生成し、育成ストーリーを作成します。
             </p>
           </div>
 
@@ -1279,13 +1278,12 @@
           <div class="about-text">
             <h2 class="about-title">観察することが<br />文化になる世界へ</h2>
             <p class="about-description">
-              Agaveyは、アガベマニアのための「Root・Share・Grow」をひとつにしたアプリです。一人ひとりの育て方の"違い"を可視化し、知恵として共有するために生まれました。
+              Agaveyは、アガベマニアのための「Root・Observe・Grow」をひとつにしたアプリです。一人ひとりの育て方の"違い"を可視化し、知恵として共有するために生まれました。ただの記録アプリではなく、観察・記録・育成を通じて、アガベと人がともに成長していくためのツールです。
             </p>
             <ul class="about-list">
-              <li>植物棚機能であなたのアガベコレクションを一元管理し、美しく整理</li>
-              <li>成長記録機能で日々の観察を記録し、時系列で変化を可視化</li>
-              <li>コミュニティ機能で他のユーザーと育成ノウハウを共有し、学び合う</li>
-              <li>水やり・照射・写真・メモなど日々のケアをワンタップで簡単に記録</li>
+              <li>植物管理機能であなたのアガベコレクションを一元管理し、美しく整理</li>
+              <li>成長記録機能で日々の観察を詳細に記録し、自分だけのデータベースを作成</li>
+              <li>タイムラインで過去の記録を振り返り、季節ごとの傾向や成功体験を分析</li>
             </ul>
           </div>
           <div class="about-images">
@@ -1297,8 +1295,8 @@
             </div>
             <div class="about-image about-image-secondary">
               <img
-                src="assets/images/community-screen.png"
-                alt="Agavey コミュニティ画面"
+                src="assets/images/calendar-screen.jpg"
+                alt="Agavey カレンダー画面"
               />
             </div>
             <div class="about-image about-image-third">
@@ -1327,10 +1325,11 @@
             <div class="plan-price">¥0</div>
             <div class="plan-period">永続無料</div>
             <ul class="plan-features">
-              <li>アガベ管理 最大5株</li>
-              <li>成長記録閲覧 最大1ヶ月</li>
+              <li>アガベ管理 最大10株</li>
               <li>デフォルトの写真記録</li>
               <li>水やりリマインダー</li>
+              <li>オーバーレイカメラでの写真記録</li>
+              <li>カレンダーでの一括管理</li>
             </ul>
             <a href="#download" class="btn-secondary">Agaveyを始める</a>
           </div>
@@ -1347,10 +1346,9 @@
             </div>
             <ul class="plan-features">
               <li>アガベ管理 無制限</li>
-              <li>成長記録閲覧 無制限</li>
-              <li>ゴーストフレームでの写真記録（予定）</li>
               <li>施肥や植替えのカスタムリマインダー（予定）</li>
-              <li>カレンダーでの一括管理（予定）</li>
+              <li>照度計測機能（予定）</li>
+              <li>成長記録のCSVエクスポート（予定）</li>
               <li>グラフでの分析機能（予定）</li>
               <li>AI診断（予定）</li>
               <li>優先サポート</li>
@@ -1382,7 +1380,7 @@
               </button>
               <div class="faq-answer">
                 <div class="faq-answer-content">
-                  無料プランでは最大5株のアガベを管理できます。Proプランでは管理数が無制限になり、成長記録閲覧 無制限、優先サポートなどの追加機能がご利用いただけます。
+                  無料プランでは最大10株のアガベを管理できます。Proプランでは管理数が無制限になり、優先サポートなどの追加機能がご利用いただけます。
                 </div>
               </div>
             </div>
